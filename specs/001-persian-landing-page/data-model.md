@@ -111,60 +111,66 @@ ToolCards:
     category: "گیمینگ الگوریتمی"
     status_label: "v2.0.0"
     status_type: "oss"
-    description: "اسکریپر زنده داده‌های Lolalytics و تولیدکننده زنجیره تصمیم مارکوف برای League of Legends. محاسبه نمره فایده ریاضی (U) به جای نرخ برد خام و تزریق چیدمان بهینه ۷ آیتمی مستقیماً به کلاینت."
+    description: "اسکریپر زنده داده‌های Lolalytics و تولیدکننده زنجیره تصمیم مارکوف برای League of Legends. محاسبه نمره فایده ریاضی (U) به جای نرخ برد خام و تزریق چیدمان بهینه ۷ آیتمی مستقیماً به کلاینت بازی."
     specs: ["Python 3", "Markov Chain", "Lolalytics API", "CLI Picker"]
-    action_text: "مشاهده مخزن گیت‌هاب"
+    action_text: "مشاهده سورس / مخزن"
     action_url: "https://github.com/PersianXM/markov-kaisa"
+    badge: "★ برگزیده"
 
   - id: "antigravity-suite"
     name: "مجموعه ابزارهای Antigravity"
-    category: "اکوسیستم توسعه‌دهنده"
-    status_label: "فعال / توسعه"
+    category: "تجربه توسعه هوش مصنوعی"
+    status_label: "لایو"
     status_type: "live"
-    description: "افزونه‌ها و ابزارهای پیشرفته برای محیط توسعه Google Antigravity، شامل اصلاح خودکار نمایش راست‌به‌چپ (RTL)، مسیریابی کدهای باز و تزریق مدل‌ها."
-    specs: ["PowerShell", "Extension Scripts", "RTL Injection", "AGY Tools"]
-    action_text: "مشاهده کد منبع"
-    action_url: "https://github.com/PersianXM"
+    description: "مجموعه‌ای جامع از ابزارهای توسعه برای Google Antigravity: اصلاح رندرینگ راست‌به‌چپ (RTL) و فارسی، مسیریابی پروکسی کدهای باز، ابزارهای تزریق مدل و ارکستریتورهای جریان کار خودکار."
+    specs: ["Antigravity", "Proxy Router", "RTL Engine", "TypeScript"]
+    action_text: "ابزارهای داخلی"
+    action_url: null
+    badge: "سوئیت توسعه"
 
   - id: "watermark-cleanser"
-    name: "پاک‌کننده واترمارک Gemini"
-    category: "پردازش بصری"
-    status_label: "پایدار"
-    status_type: "stable"
-    description: "ابزار سبک حذف واترمارک‌های مصنوعی از تصاویر تولیدشده توسط مدل‌های تصویری Imagen و Gemini، بازگرداننده خلوص بصری آرتفکت‌ها بدون افت کیفیت."
-    specs: ["Python", "OpenCV", "Image Processing", "Batch CLI"]
-    action_text: "مشاهده کد منبع"
-    action_url: "https://github.com/PersianXM"
+    name: "پاک‌کننده واترمارک جمینای"
+    category: "هوش مصنوعی بصری و رسانه"
+    status_label: "فعال"
+    status_type: "live"
+    description: "ابزار تخصصی برای شناسایی دقیق و حذف بدون افت کیفیت (Lossless) واترمارک‌های مصنوعی SynthID و آرتیفکت‌های خروجی‌های تصویری مدل‌های هوش مصنوعی Google Gemini."
+    specs: ["Python", "OpenCV / PIL", "Gemini Vision"]
+    action_text: "برنامه مستقل"
+    action_url: null
+    badge: "ابزار کاربردی"
 
   - id: "universal-skill-converter"
-    name: "مبدل مهارت‌های فراگیر (Skill Converter)"
-    category: "هوش مصنوعی ایجنتیک"
-    status_label: "پایدار"
-    status_type: "stable"
-    description: "ابزار تبدیل ساختار مهارت‌ها بین اکوسیستم‌های مختلف هوش مصنوعی؛ تبدیل خودکار تعاریف ابزار، فایل‌های SKILL.md و پروتکل‌های اجرایی میان پلتفرم‌ها."
-    specs: ["Node.js", "AST Parser", "Markdown Specs", "CLI"]
-    action_text: "مشاهده کد منبع"
-    action_url: "https://github.com/PersianXM"
+    name: "مبدل فراگیر مهارت‌ها (Skill Converter)"
+    category: "مهندسی ایجنتیک"
+    status_label: "متن‌باز"
+    status_type: "oss"
+    description: "نمایش میانی مستقل از پلتفرم (USIR) و خط‌لوله کامپایلر مهارت‌های ایجنت‌های هوش مصنوعی. ترنسپایل خودکار تعاریف ابزارها و جریان‌های کاری میان Claude، Cursor و Codex با بهینه‌سازی درخت انتزاعی نحو (AST)."
+    specs: ["Python 3.11", "USIR Engine", "AST Optimizer", "FastAPI Web UI"]
+    action_text: "مشاهده سورس / مخزن"
+    action_url: "https://github.com/PersianXM/universal-skill-converter"
+    badge: "★ برگزیده"
 
-  - id: "media-pipeline-bots"
-    name: "بات‌های پایپ‌لاین رسانه"
-    category: "سنتز صوت و رسانه"
-    status_label: "سرویس زنده"
-    status_type: "live"
-    description: "سیستم خودکار تولید پادکست، صداگذاری متون، و استخراج خلاصه‌های تحلیلی برای کانال‌های تلگرامی با معماری صف توزیع‌شده."
-    specs: ["Telegram Bot API", "Edge TTS", "Docker", "AsyncIO"]
-    action_text: "مشاهده کد منبع"
-    action_url: "https://github.com/PersianXM"
+  - id: "option-box"
+    name: "Option-Box"
+    category: "مالی محاسباتی و معاملات الگوریتمی"
+    status_label: "v1.4.0"
+    status_type: "oss"
+    description: "موتور بلادرنگ قیمت‌گذاری کمّی اختیار معامله و آربیتراژ برای بورس اوراق بهادار تهران (TSE). محاسبه پارامترهای یونانی بلک-شولز (دلتا، گاما، تتا، وگا، رو)، حل نوسان‌پذیری ضمنی (IV) و اسکن زنده ماتریس آربیتراژ."
+    specs: ["Black-Scholes", "Greeks Engine", "IV Solver", "FastAPI", "TSETMC API"]
+    action_text: "مشاهده سورس / مخزن"
+    action_url: "https://github.com/PersianXM/Option-Box"
+    badge: "★ برگزیده"
 
-  - id: "domain-tabular-ocr"
-    name: "استخراج‌گر داده‌های جدولی و مالی"
-    category: "سامانه‌های اسنادی"
-    status_label: "تخصصی"
-    status_type: "stable"
-    description: "موتور تخصصی OCR و پردازش جداول پیچیده فیش‌های حقوقی و اسناد مالی صنعت نفت با اصلاح خودکار جریان متون دوزبانه و اعداد فارسی."
-    specs: ["PyMuPDF", "RegEx Engines", "OCR Engine", "Excel Exporter"]
-    action_text: "مشاهده کد منبع"
-    action_url: "https://github.com/PersianXM"
+  - id: "meowmeow-tv"
+    name: "MeowMeow TV"
+    category: "استریم رسانه و اندروید"
+    status_label: "v2.8.0"
+    status_type: "oss"
+    description: "کلاینت استریم سینمایی نسل جدید برای تلویزیون و اندروید باکس. توسعه‌یافته با Jetpack Compose for TV، پخش شتاب‌یافته سخت‌افزاری با Media3/ExoPlayer، مسیریابی هوشمند فوکوس کنترل از راه دور (D-pad) و رندرینگ زیرنویس سفارشی."
+    specs: ["Kotlin 2.4", "Android SDK 37", "Compose for TV", "Media3 / ExoPlayer"]
+    action_text: "مشاهده سورس / مخزن"
+    action_url: "https://github.com/PersianXM/MeowMeow"
+    badge: "Android TV"
 ```
 
 ---
